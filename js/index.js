@@ -18,7 +18,7 @@ function solQuadEq(a, b, c) {
         return 'Solution have 2 roots: root1 = ' +  x1  + ' and root2 = ' + x2;
     }  
     else if (discr < 0){
-        return 'No solution';
+        return 'have no solution, because d<0';
     }
 }
 
